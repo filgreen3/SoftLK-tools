@@ -37,6 +37,8 @@ Instructions for building `SLK_img2pixel` on macOS.
     *   Generate the Makefile: `./macos.sh > Makefile`
     *   Run make: `make`
 
+3. **Done:**
+    *   Run `SoftLK-tools/bin/SLK_img2pix`
 
 # License
 
