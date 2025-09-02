@@ -23,6 +23,21 @@ Here is a link to the SLK_img2pixel Discord. Feel free to pop in and make sugges
 
 * SLK_img2pixel: [itch.io](https://captain4lk.itch.io/slk-img2pixel)
 
+# Building for macOS
+
+Instructions for building `SLK_img2pixel` on macOS.
+
+1.  **Install Prerequisites:**
+    *   Install Xcode Command Line Tools: `xcode-select --install`
+    *   Install Homebrew from [brew.sh](https://brew.sh/).
+    *   Install libraries: `brew install sdl2 pkg-config`
+
+2.  **Compile:**
+    *   Navigate to the tool's directory: `cd SLK_img2pixel`
+    *   Generate the Makefile: `./macos.sh > Makefile`
+    *   Run make: `make`
+
+
 # License
 
 All code in this repository (except the 'external' directory containing source code not by me) is released into the public domain (CC0), see COPYING for more info.
